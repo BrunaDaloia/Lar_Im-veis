@@ -1,0 +1,333 @@
+body {
+	font-family: "Open Sans", Helvetica, Arial, sans-serif;
+	color: #000000
+}
+
+h1, h2, h3 {
+	margin: 0;
+	font-family: "Roboto Slab", Helvetica, Arial, sans-serif;
+	font-weight: 700px;
+
+}
+
+p {
+	font-size: 110%;
+}
+
+a:hover{ /*ao passar o mouse no link*/
+	text-decoration:none;
+}
+
+a.menu:hover{  /*uma classe definida*/
+	text-decoration: none;
+	color: orange; 
+}
+
+a:active{
+	color: white;
+}
+
+.botao {
+	color: #F5F5F5;
+	text-decoration: none;
+	padding: 10px 30px;
+	background-color: #2F4F4F;
+	font-size: 20px;
+	border-radius: 3px;
+}
+
+nav {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	background-color: #006400;
+	
+}
+
+nav > a {
+	text-decoration: none;
+	color: #F5F5F5;
+	font-weight: 700;
+	font-size: 28px;
+	font-family: Poppins, serif;
+}	
+
+nav a img {
+	padding: 10px 10px;
+}
+nav ul {
+	list-style: none;
+	padding: 0;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	width: 100%;
+}
+
+nav ul li {
+	text-align: center;
+	width: 100%;
+}
+
+nav ul li a {
+	display: inline-block;
+	padding: 10px 0;
+	width: 100%;
+	text-decoration: none;
+	color: #F5F5F5;
+}
+
+#sliderhome {
+    
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: #F5F5F5;
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    text-align: center;
+    
+	font-size: 40px
+}	
+header p {
+	margin-bottom: 2em;
+	font-size: 40px;
+	font-weight: bold; 
+}	
+
+#sobre {
+    display: flex;
+	flex-direction: column;
+	align-items: center;
+	text-align: center;
+	padding: 0 20px 20px;
+	background-color: #2F4F4F;
+	font-family: "Poppins", Helvetica, Arial, sans-serif;
+	color: #F8F8FF;
+}
+
+#sobre p {
+	margin-top: 10px;
+	margin-bottom: 2.5em;
+	max-width: 1000px;
+	font-family: "Poppins", Helvetica, Arial, sans-serif;
+	color: #F8F8FF;
+}
+
+#sobre .botao {
+	background-color: #F5F5F5;
+	color: #2F4F4F;
+}
+
+#contatoFundo {
+    display: flex;
+	flex-direction: column;
+	align-items: center;
+	text-align: center;
+	padding: 0 500px 500px;
+	background-color: #2F4F4F;
+	font-family: "Poppins", Helvetica, Arial, sans-serif;
+	color: #F8F8FF;
+}
+
+#imoveis {
+	padding: 20px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	
+}
+
+
+#imoveis div {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	text-align: center;
+	margin-top: 30px;
+}
+#servicos {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding-top: 20px;
+	padding-bottom:20px;
+}
+
+#servicos div {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	text-align: center;
+	margin-top: 30px;
+}
+
+
+     
+#contato {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	background-color: #2F4F4F;
+	text-align: center;
+	font-family:"Poppins", Helvetica, Arial, sans-serif;
+	color: #F8F8FF;
+	
+}
+
+
+#contato > a {
+	text-decoration: none;
+	color: #F5F5F5;
+	font-weight: 700;
+	font-size: 28px;
+	font-family: Poppins, serif;
+}	
+
+#contato ul {
+	list-style: none;
+	padding: 0;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	width: 100%;
+}
+
+#contato ul li {
+	text-align: center;
+	width: 100%;
+}
+
+#contato ul li a {
+	display: inline-block;
+	padding: 10px 0;
+	width: 100%;
+	text-decoration: none;
+	color: #F5F5F5;
+}
+
+.contact {
+	background-color:#2F4F4F;
+	display: flex;
+	flex-direction: column;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	color: #F5F5F5;
+	align-items:center;
+
+}
+
+	
+
+footer {
+	text-align: center;
+	padding: 20px;
+	background-color: #006400;
+	color: #F8F8FF
+}
+
+label {
+    display: inline-block;
+}
+input {
+    padding: 0;
+    margin:0;
+    vertical-align: center;
+    position: relative;
+    top: 1px;
+    overflow: hidden;
+}
+	
+
+
+
+@media screen and (min-width: 768px) {
+	
+	nav {
+		flex-direction: row;
+		justify-content: space-around;
+	}
+	
+	nav ul {
+		flex-direction: row;
+		width: 70%;
+	}
+	
+	header { 
+	    height: 600px;
+		height: 60vh;
+		justify-content: center;
+	}
+	
+	#sobre {
+		height: 250px;
+		height: 30vh;
+		justify-content: center;
+		min-height: 250px;
+	}
+	
+		#contatoFundo {
+		height: 250px;
+		height: 30vh;
+		justify-content: center;
+		min-height: 250px;
+	}
+	
+	#imoveis {
+	
+		flex-direction: row;
+		flex-wrap: wrap;
+		align-items: flex-start;
+		max-width: 1000px;
+		margin: 0 auto;
+	}
+	
+	#imoveis h2 {
+		text-align: center;
+		width: 100%; 
+	}
+	#imoveis div {
+		
+		flex-grow: 1;
+		flex-basis: 150px;
+		padding: 0 10px;
+	}
+	#servicos {
+		flex-direction: row;
+		flex-wrap: wrap;
+		align-items: flex-start;
+		max-width: 1000px;
+		margin: 0 auto;
+	}
+    #servicos h2 {
+		text-align: center;
+		width: 100%; 
+    }
+	#servicos div {
+		flex-grow: 1;
+		flex-basis: 150px;
+		padding: 0 10px;
+	}
+	
+	#contato {
+		flex-direction: row;
+		justify-content: space-around;
+	}
+	
+	#contato ul {
+		flex-direction: row;
+		width: 70%;
+	}
+	
+	.contact h2 {
+		text-align: center;
+	    width: 100%;
+	}
+	
+	 
+	
+	
+}
+
+	
